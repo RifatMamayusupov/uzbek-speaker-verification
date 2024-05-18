@@ -11,9 +11,9 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.KEY }}
+        password: ${{ secrets.PASSWORD }}
         port: 22332
         script: |
            cd  /home/rifat/uzbek-speaker-verification
            git pull
-           
+
